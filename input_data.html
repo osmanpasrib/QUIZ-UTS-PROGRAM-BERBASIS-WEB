@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ UTS PROGRAM BERBASIS WEB</title>
+</head>
+<body>
+    <h2>QUIZ UTS PROGRAM BERBASIS WEB</h2>
+    <p>
+        <a href="index.html">home</a>
+        <a href="input_data.html">input data</a>
+        <a href="about.html">about</a>
+        <a href="list_data.html">list data</a>
+        <a href="tabel_data.html">tabel data</a>
+    </p>
+    <table>
+        <tr>
+            <td><form action="input data" method="post"></td>
+                <fieldset>
+                    <legend>INPUT DATA PESANAN BARANG</legend>
+                    <tr>
+                        <td><label >NAMA PEMBELI:</label></td>
+                        <td><input type="text" name="NAMA PEMESAN" placeholder="nama lengkap..."/></td>
+                    </tr>
+                    <tr>
+                        <td><label >ALAMAT:</label></td>
+                        <td><input type="text" name="alamat" placeholder="alamat lengkap..."/></td>
+                    </tr>
+                <tr>
+                    <td><label>NO HP:</label></td>
+                    <td><input type="text" name="no hp"placeholder="no aktif..."></td>
+                </tr>
+                <tr>
+                    <td><label>JENIS PEMBAYARAN:</label></td>
+                    <td><label><input type="radio" name="jenis_pembayaran" value="cash"/>cash</label>
+                    <label><input type="radio" name="jenis_pembayaran" value="credit"/>credit</label></td>
+                </tr>
+                <tr>
+                    <td><label>JENIS BARANG:</label></td>
+                    <td><select name="jenis barang">
+                        <option value="kipas_angin">kipas angin</option>
+                        <option value="mesin cuci">mesin cuci</option>
+                        <option value="rice cooker">rice cooker</option>
+                        <option value="televisi">televisi</option>
+                        <option value="lemari es">lemari es</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td><label>MERK BARANG:</label></td>
+                    <td><select name="merek baarang">
+                        <option value="cosmos">cosmos</option>
+                        <option value="miyako">miyako</option>
+                        <option value="polytron">polytron</option>
+                        <option value="sharp">sharp</option>
+                        <option value="yong ma">yong ma</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td><label>WARNA BARANG:</label></td>
+                    <td><label><input type="radio" name="warna_barang" value="hitam"/>hitam</label>
+                    <label><input type="radio" name="warna_barang" value="abu_abu"/>abu-abu</label>
+                    <label><input type="radio" name="warna_barang" value="putih"/>putih</label>
+                    <label><input type="radio" name="warna_barang" value="biru"/>biru</label>
+                    <label><input type="radio" name="warna_barang" value="siver"/>siver</label></td>
+                </tr>
+                <tr>
+                    <td><label>KETERANGAN</label></td>
+                    <td><textarea name="keterangan"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="PESAN"></td>
+                </tr>
+                </fieldset>
+
+            </form>
+        </tr>
+    </table>   
+    
+
+</body>
+</html>
